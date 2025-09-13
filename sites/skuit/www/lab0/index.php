@@ -1,6 +1,6 @@
 <?php
-$fullname = "Dmitriy";
-$group = "C025";
+$fullname = "Дмитрий";
+$group = "С025";
 ?>
 <!doctype html>
 <html lang="ru">
@@ -19,7 +19,7 @@ $group = "C025";
 <strong>ФИО:</strong> <?= $fullname?><br>
 <strong>Группа:</strong> <?= $group?>
 </div>
-<button class="btn btn-success w-100">👍</button>
+<button class="btn btn-success w-100">press</button>
 </div>
 </div>
 
