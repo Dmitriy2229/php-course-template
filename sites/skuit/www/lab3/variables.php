@@ -37,7 +37,7 @@ $grades = [4, 5, 3, 5, 4];
 <div class="section">
     <h2>2. Математические операции</h2>
     <?php
-    $birthYear = 2024 - $age;
+    $birthYear = 2025 - $age;
     $futureAge = $age + 5;
     $heightInches = $heightCm / 2.54;
     $heightMeters = $heightCm / 100;
@@ -45,7 +45,7 @@ $grades = [4, 5, 3, 5, 4];
     ?>
 
     <p>Год рождения: <span class="result"><?= $birthYear ?></span></p>
-    <div class="hint">// 2024 - возраст = <?= $birthYear ?></div>
+    <div class="hint">// 2025 - возраст = <?= $birthYear ?></div>
 
     <p>Возрвст через 5 лет: <span class="result"><?= $futureAge ?></span></p>
     <div class="hint"> // возраст + 5 = <?= $futureAge ?></div>
@@ -70,7 +70,7 @@ $grades = [4, 5, 3, 5, 4];
     ?>
 
     <p>Приветствие: <span class="result"><?= $greeting ?></span</p>
-    <div class="hint">// "Привет, " . $name . "!"</div>
+    <div class="hint"></div>
 
     <p>Информация: <span class="result"><?= $ageinfo ?></span></p>
     <div class="hint">"</div>
@@ -130,7 +130,7 @@ $randomFloat = round(rand(0, 100) / 100, 2);
                 
                 $heightInches = $inputHeight / 2.54;
                 $heightMeters = $inputHeight / 100;
-                $birthYear = 2024 - $inputAge;
+                $birthYear = 2025 - $inputAge;
                 $randomNumber = rand(1, 100);
                 
                 echo "<div class='result'>";
